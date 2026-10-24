@@ -1,0 +1,11 @@
+files=824 frames=129916 audio=2072.0s
+stage       mean     p50     p99     max  (ms/frame)
+stft       0.549   0.537   0.718  20.778
+pack       0.268   0.260   0.386  12.397
+accel      4.591   4.571   4.785  24.645
+unpack     0.450   0.435   0.678  11.163
+istft      1.786   1.744   2.415  22.265
+TOTAL      7.643   7.576   8.893  28.660
+compute-only RTF = 0.479   throughput = 130.8 frames/s
+frames over hop (16 ms): 52   over 8 ms: 11396
+end-to-end latency = 32 ms (algorithmic) + 7.64 ms mean / 8.89 ms p99 processing = 39.64 / 40.89 ms

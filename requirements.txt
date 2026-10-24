@@ -1,0 +1,12 @@
+# PC side (training, quantization, evaluation). Versions used for the reported results.
+torch==2.4.1
+torchaudio==2.4.1
+numpy==1.26.4
+scipy==1.13.1
+pesq==0.0.4
+soundfile==0.12.1
+librosa==0.10.2.post1
+joblib==1.4.2
+tqdm==4.66.5
+fxpmath
+# Board side (PYNQ-Z2 image v2.6): pynq 2.6.0 and numpy 1.17.5 come preinstalled.
